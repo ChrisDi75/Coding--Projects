@@ -32,7 +32,7 @@ a {
 .button {
     background-color: black;
     color: #fff;
-    padding10px 15px;
+    padding: 10px 15px;
     border: none;
 }
 
@@ -121,7 +121,7 @@ a:active {
 }
 
 .categories li {
-    padding: bottom: 8px;
+    padding: bottom 8px;
     border-bottom: dotted 1px #333;
     list-style-image: url('../images/check.png');
 }
