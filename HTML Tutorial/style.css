@@ -64,10 +64,35 @@ li {
     padding-left: 16px;
 }
 
+
+
 .row {
     width: 100%;
     max-width: 1300px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* ABOUT*/
+
+#about {
+    padding: 48px 0;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about__img--wrapper {
+    width: 40%;
+}
+
+img {
+    width: 100%;
 }
