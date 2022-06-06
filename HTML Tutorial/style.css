@@ -81,7 +81,7 @@ li {
 #discord,
 #contact,
 footer {
-    padding: 48px 0;
+    padding: 48px;
     ;
 }
 
@@ -100,11 +100,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 
 }
 
 .about__img--wrapper {
-    width: 60%;
+    width: 40%;
+    padding: 0 24px;
 }
 
 img {
@@ -113,12 +115,13 @@ img {
 
 .section__description-wrapper {
     width: 60%;
+    padding: 0 24px;
 }
 
 
 .section__description-wrapper,
 .about__img--wrapper {
-
+    width: 60%;
     padding: 0 24px;
 
 
@@ -180,4 +183,62 @@ footer {
 
 .footer__link {
     padding: 0 16px;
+}
+
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
+@media (max-width: 728px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .home__description {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home__description--button {
+        max-width: 240px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .subheader {
+        text-align: center;
+        font-size: 28px;
+    }
+
+
+    ul {
+        display: none;
+    }
+
+
+    .section__description {
+        flex-direction: column;
+
+    }
+
+    .section__description-wrapper {
+        width: 100px;
+    }
+
+    .about__img--wrapper {
+        width: 100%;
+    }
+
+
+    #discord .section__description {
+        flex-direction: column-reverse;
+    }
+
+
+
+
 }
