@@ -16,6 +16,9 @@ body {
     overflow-x: hidden;
 }
 
+.purple {
+    color: #6415FF;
+}
 
 nav {
     height: 160px;
