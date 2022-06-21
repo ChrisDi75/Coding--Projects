@@ -20,9 +20,21 @@ body {
     color: #6415FF;
 }
 
+
+.grey {
+    color: #A0AEC0;
+}
+
 nav {
     height: 160px;
     display: flex;
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 24px 0 24px 0;
 }
 
 .nav__container {
@@ -74,4 +86,97 @@ li {
     border: none;
     border-radius: 32px;
     padding: 12px 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.header__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-left: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header__description {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__h1 {
+    font-size: 48px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo__header {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.header__img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.under__email {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+
+.email__input {
+    writing-mode: horizontal-tb !important;
+    font-size: 24px;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-radius: 32px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.btn__email {
+    background-color: #6415FF;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 32px;
+    padding: 12px 32px;
+    text-align: center;
+    font-weight: bold;
 }
