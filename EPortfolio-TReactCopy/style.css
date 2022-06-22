@@ -41,6 +41,7 @@ p {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 80px 0;
 }
 
 .nav__container {
@@ -183,4 +184,33 @@ li {
     padding: 12px 32px;
     text-align: center;
     font-weight: bold;
+}
+
+/* FEATURES */
+
+
+.feat__container {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.features__heading {
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.features__looks {
+    font-size: 48px;
+}
+
+.features {
+    display: flex;
+    width: calc(100%/3);
+}
+
+.feature__img {
+    display: flex;
 }
