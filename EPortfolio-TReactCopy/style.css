@@ -37,14 +37,18 @@ p {
     padding: 24px 0 24px 0;
 }
 
-.nav__container {
+.row {
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__container {
+
     padding: 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
 
 }
 
