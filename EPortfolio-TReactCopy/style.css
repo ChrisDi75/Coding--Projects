@@ -26,10 +26,20 @@ body {
 }
 
 nav {
-    height: 160px;
     display: flex;
+
 }
 
+.nav__container {
+    height: 160px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
 
 p {
     font-size: 20px;
@@ -44,14 +54,6 @@ p {
     padding: 80px 0;
 }
 
-.nav__container {
-
-    padding: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
 
 .logo {
     width: 60px;
@@ -207,10 +209,13 @@ li {
 
 .features__looks {
     font-size: 48px;
+    font-weight: bold;
 }
 
 .features__looks-size {
+    max-width: 600px;
     font-size: 18px;
+    color: #7c8ba1;
 }
 
 .services {
@@ -220,16 +225,16 @@ li {
 }
 
 .features {
-    flex-direction: row;
+    display: flex;
     align-items: start;
-    text-align: left;
     width: calc(100%/3);
-    padding: 32px 8px;
+    padding: 32px 32px;
 }
 
 .feature__description {
-    display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: left;
 }
 
 .features__headline {
@@ -238,4 +243,12 @@ li {
 
 .features__text {
     font-size: 16px;
+    color: #7c8ba1;
+}
+
+.feature__img {
+    margin-right: 24px;
+    box-sizing: border-box;
+    border-radius: 30%;
+
 }
