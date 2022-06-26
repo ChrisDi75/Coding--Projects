@@ -252,3 +252,12 @@ li {
     border-radius: 30%;
 
 }
+
+/* SECOND SECTION */
+
+
+.section__input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
