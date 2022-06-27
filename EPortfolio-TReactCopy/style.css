@@ -337,10 +337,41 @@ li {
 
 .title__section-three {
     font-size: 16px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .text__section-three {
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 36px;
+    margin-top: 0;
+}
+
+.bullet__list {
+    display: flex;
+
+}
+
+.list__Text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bullet__list-number {
+    color: #cbd5e0;
+    font-size: 36px;
+    margin: 32px;
+    display: flex;
+    margin-top: 0;
+
+}
+
+.list__text--heading {
+    font-size: 20px;
+    color: #243e63;
+}
+
+.list__para {
+    color: #718096;
+    font-size: 14px;
+    margin-top: -10px;
 }
