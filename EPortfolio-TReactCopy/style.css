@@ -309,3 +309,38 @@ li {
     font-weight: bold;
 
 }
+
+/* SECTION THREE */
+
+.section__three {
+    display: flex;
+    flex-direction: row;
+}
+
+.img__left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo__left {
+    width: 100%;
+    height: 100%;
+}
+
+.section__three-input {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.title__section-three {
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+.text__section-three {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
