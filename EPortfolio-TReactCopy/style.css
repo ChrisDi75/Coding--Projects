@@ -312,6 +312,10 @@ li {
 
 /* SECTION THREE */
 
+.section__three-container {
+    padding: 80px 0;
+}
+
 .section__three {
     display: flex;
     flex-direction: row;
