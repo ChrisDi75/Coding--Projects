@@ -310,7 +310,7 @@ li {
 
 }
 
-/* SECTION THREE */
+/* SECTION THREE - FEATURES */
 
 .section__three-container {
     padding: 80px 0;
@@ -378,4 +378,47 @@ li {
     color: #718096;
     font-size: 14px;
     margin-top: -10px;
+}
+
+/* SECTION FOUR - PRICING */
+.section__four-container {
+    padding: 80px 0;
+}
+
+.pricing__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing__text {
+    color: #6415FF;
+    margin-bottom: 16px;
+}
+
+.pricing__text-big {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.pricing__para {
+    color: #7c8ba1;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+
+.plans__container {
+    padding: 80px 0;
+}
+
+.plan__general {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan__individual {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
 }
