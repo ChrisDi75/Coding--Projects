@@ -380,7 +380,41 @@ li {
     margin-top: -10px;
 }
 
+/* SECTION VALUE */
+
+
+
+.section__value-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.value__text-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texts__wrapper {
+    display: flex;
+}
+
+.affordable__text-left {
+    display: flex;
+}
+
+
+
+
+
+
 /* SECTION FOUR - PRICING */
+
+
+
+
 .section__four-container {
     padding: 80px 0;
 }
