@@ -426,9 +426,8 @@ li {
 /* SECTION FOUR - PRICING */
 
 
+/* generall styling and outlay of divs */
 
-
-.section__four-container {}
 
 .pricing__container {
     display: flex;
@@ -453,30 +452,189 @@ li {
 }
 
 
-.plans__container {
-    height: 100%;
-    width: 100%;
-}
 
 .plan__general {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .plan__individual {
-    width: calc(100% / 3);
     display: flex;
+    width: calc(100% / 3);
     flex-direction: column;
-    padding: 12px;
-    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    padding: 24px;
+    text-align: center;
 
 }
+
+
+
+
+/* styling first and last pricing div */
+
+
+
+.plan__headings {
+    margin: 32px;
+
+
+}
+
+.border {
+    box-sizing: border-box;
+    border: 1px solid #dee0e2;
+
+}
+
+.border__button {
+    box-sizing: border-box;
+    border: 1px solid #dee0e2;
+
+
+
+
+}
+
+.heading__business {
+    margin: 32px;
+}
+
+.plan__one-heading {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.plan__pricing-one {
+    font-size: 48px;
+    padding-bottom: 12px;
+}
+
+.plan__subscription {
+    font-size: 16px;
+    color: #A0AEC0;
+}
+
+.features__plan {
+    margin: 32px;
+}
+
+.plan__persons {
+    font-size: 20px;
+}
+
+.plan__benefits {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #718096;
+    padding: 14px;
+}
+
+.plan__one-heading-two {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.plan__pricing-two {
+    font-size: 48px;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.plan__subscription-two {
+    font-size: 16px;
+    color: white;
+}
+
+.features__business {
+    margin: 32px;
+}
+
+
+.plan__persons-two {
+    font-size: 20px;
+    color: white;
+
+}
+
+.plan__benefits-two {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #e2e8f0;
+    padding: 14px;
+}
+
+
+
+
+
+
+
+/* styling second pricing div */
+
+
 
 
 .background__img-blue {
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
 
+/* buttons for all three divs in pricing */
+
+.buttons__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.btn__plans {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 32px;
+    padding: 12px 32px;
+    margin: 32px;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+
+.btn__plans-one-two {
+    background: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 32px;
+    padding: 12px 32px;
+    text-align: center;
+    font-weight: bold;
+    color: #6415FF;
+    margin: 32px;
+
+}
+
+.btn__plans-three {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    font-size: 12px;
+    border: none;
+    border-radius: 32px;
+    padding: 12px 32px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 32px;
+
+}
+
+/* gradient for pricing divs */
 
 .my__gradient-mint {
     border-top-left-radius: 0.5rem;
@@ -488,41 +646,6 @@ li {
     height: 0.5rem;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 
-}
-
-.btn__plans {
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-    color: white;
-    font-size: 20px;
-    border: none;
-    border-radius: 32px;
-    padding: 12px 32px;
-    text-align: center;
-    font-weight: bold;
-}
-
-
-.btn__plans-one-two {
-    background: white;
-    font-size: 20px;
-    border: none;
-    border-radius: 32px;
-    padding: 12px 32px;
-    text-align: center;
-    font-weight: bold;
-    color: #6415FF;
-
-}
-
-.btn__plans-three {
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
-    font-size: 20px;
-    border: none;
-    border-radius: 32px;
-    padding: 12px 32px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
 }
 
 
