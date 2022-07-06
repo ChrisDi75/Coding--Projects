@@ -153,6 +153,7 @@ li {
 
 .email__input {
     writing-mode: horizontal-tb !important;
+    box-sizing: border-box;
     font-size: 24px;
     text-rendering: auto;
     color: fieldtext;
@@ -162,8 +163,9 @@ li {
     text-transform: none;
     text-indent: 0px;
     text-shadow: none;
-    display: inline-block;
-    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     appearance: auto;
     -webkit-rtl-ordering: logical;
     cursor: text;
@@ -175,12 +177,13 @@ li {
     border-style: inset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
+    border
 }
 
 .btn__email {
     background-color: #6415FF;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     border-radius: 32px;
     padding: 12px 32px;
@@ -485,13 +488,13 @@ li {
 
 .border {
     box-sizing: border-box;
-    border: 1px solid #dee0e2;
+    border: 1px solid rgba(124, 179, 186, 0.242);
 
 }
 
 .border__button {
     box-sizing: border-box;
-    border: 1px solid #dee0e2;
+    border: 1px solid rgba(124, 179, 186, 0.242);
 
 
 
@@ -659,16 +662,4 @@ li {
     height: 0.5rem;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 
-}
-
-.my__gradient-blue {
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 0.5rem;
-    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
-    ;
 }
