@@ -164,6 +164,7 @@ li {
     text-indent: 0px;
     text-shadow: none;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     appearance: auto;
@@ -177,8 +178,9 @@ li {
     border-style: inset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
-    border
 }
+
+
 
 .btn__email {
     background-color: #6415FF;
