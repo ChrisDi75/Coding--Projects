@@ -54,7 +54,6 @@ p {
     padding: 80px 0;
 }
 
-.logo__header {}
 
 .logo {
     width: 60px;
@@ -691,6 +690,9 @@ li {
 }
 
 
+.icon-back {
+    color: white;
+}
 
 .footer__info {
     padding-top: 32px;
