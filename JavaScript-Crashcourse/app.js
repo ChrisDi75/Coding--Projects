@@ -1,16 +1,3 @@
-let cash = 50;
-let price = 200;
-let difference = cash - price
+let hot = true;
 
-
-
-if(cash > price) {
-    console.log(`you paid extra - here's ${difference} dollars change`)
-}
-else if (cash === price) {
-    console.log("you paid the exact amount, have a nice day!")
-}
-
-else {
-    console.log(`not enough money - you still owe ${difference * -1} dollars`)
-}
+hot ? console.log("weather is hot outside") : console.log("weather is cold.")
