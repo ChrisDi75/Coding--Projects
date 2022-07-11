@@ -1,3 +1,7 @@
-let hot = true;
+let cash = 50;
+let price = 40;
+let isStoreOpen = true;
 
-hot ? console.log("weather is hot outside") : console.log("weather is cold.")
+let str = isStoreOpen  && cash >= price ? " give receipt" :"do not give receipt"
+
+console.log(str);
