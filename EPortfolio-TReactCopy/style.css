@@ -84,6 +84,19 @@ li {
 
 }
 
+.logo__name-nav:hover {
+    cursor: pointer;
+    color: #6415FF;
+}
+
+
+
+.logo__treact:hover {
+    cursor: pointer;
+
+}
+
+
 
 
 .nav__link {
@@ -439,6 +452,11 @@ li {
 
 }
 
+.btn__learn-more:hover {
+    cursor: pointer;
+
+}
+
 /* SECTION THREE - FEATURES */
 
 .section__three-container {
@@ -559,6 +577,10 @@ li {
     font-weight: bold;
 
 
+}
+
+.btn__learn-mores:hover {
+    cursor: pointer;
 }
 
 
@@ -749,6 +771,10 @@ li {
 
 }
 
+.btn__plans:hover {
+    cursor: pointer;
+}
+
 
 .btn__plans-one-two {
     background: white;
@@ -763,6 +789,15 @@ li {
 
 }
 
+
+.btn__plans-one-two:hover {
+    cursor: pointer;
+
+}
+
+
+
+
 .btn__plans-three {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     font-size: 12px;
@@ -774,6 +809,11 @@ li {
     color: white;
     margin: 32px;
 
+}
+
+
+.btn__plans-three:hover {
+    cursor: pointer;
 }
 
 /* gradient for pricing divs */
@@ -959,7 +999,8 @@ li {
     }
 
     .logo__on-right {
-        width: 75%;
+        width: 90%;
+        margin-bottom: 24px;
     }
 
     .text__left {
@@ -982,6 +1023,7 @@ li {
         margin-left: 180px;
         margin-top: 12px;
     }
+
 
 
     .section__three {
@@ -1115,6 +1157,11 @@ li {
 
     }
 
+    .title__features {}
+
+    .features__headline {
+        font-size: 28px;
+    }
 
     .features__looks {
         width: 100%;
@@ -1131,13 +1178,17 @@ li {
         align-items: center;
         justify-content: center;
         width: 100%;
-        flex-direction: column;
+        font-size: 18px;
+        flex-direction: row;
+        padding-left: 130px;
+        padding-right: 100px;
     }
 
     .feature__wrapper {
         width: 100%;
         margin-top: 15px;
-        text-align: center;
+        text-align: left;
+
 
     }
 
@@ -1149,7 +1200,8 @@ li {
     }
 
     .logo__on-right {
-        width: 75%;
+        width: 90%;
+        margin-bottom: 40px;
     }
 
     .text__left {
@@ -1168,11 +1220,27 @@ li {
     }
 
     .btn__learn-more {
-
-        margin-left: 180px;
+        text-align: center;
+        border-radius: 9999px;
+        width: 50%;
+        margin-left: 100px;
         margin-top: 12px;
     }
 
+
+
+    .img__left {
+        width: 70%;
+    }
+
+    .title__section-three {
+        margin: 40px 0 0 0;
+    }
+
+    .text__section-three {
+        text-align: center;
+
+    }
 
     .section__three {
         align-items: center;
@@ -1183,7 +1251,20 @@ li {
         width: 50%;
         display: flex;
         align-items: center;
-        flex-direction: co;
+        flex-direction: column;
+    }
+
+    .bullet__list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .list__text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
     }
 
     .text__section-three {
@@ -1193,16 +1274,37 @@ li {
 
 
     .section__value-container {
+        width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
+        margin: 0 30px;
     }
 
+    .value__text-left {
+        margin: 24px 20px;
+    }
 
+    .text__section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title__section {
+        text-align: center;
+        margin: 14px -40px;
+    }
+
+    .lorem__looks {
+        margin: 0 -40px;
+        font-size: 16px;
+    }
 
     .texts__wrapper {
         display: flex;
         flex-direction: column;
+        font-size: 12px;
     }
 
 
@@ -1229,6 +1331,7 @@ li {
 
     .pricing__para {
         font-size: 18px;
+        margin-bottom: 32px;
     }
 
     .plan__general {
@@ -1249,4 +1352,18 @@ li {
 
     }
 
+    .footer__info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .footer__logo {
+        padding-bottom: 24px;
+    }
+
+    .footer__copyright {
+        padding-bottom: 32px;
+    }
 }
