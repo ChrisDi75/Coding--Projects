@@ -1,44 +1,119 @@
-// excercise: write a for loop that loops through 1 to 20 
-// if the number is divisible by 3, print frontend
-// if the number is divisible by 5, print simplified
-// if the number is divisible by 3 and 5, print frontend simplified
-// if the number is not divisible by either 3 or 5, print the number 
-
-
-// for (let i = 1; i <= 20; i++ ) {
-
-//     if ( i % 3 === 0 && i % 5 === 0 ) {
-//         console.log(`${i} --> Frontend Simplified`);
-//     }
-
-//     else if ( i % 3 === 0 ) {
-
-    
-//     console.log(`${i} --> Frontend`);
-//     }
-
-//     else if ( i % 5 === 0 ) {
-//         console.log(`${i} --> Simplified`);
-//     }
-
-  
-
-//     if ( i % 3 !== 0 && i % 5 !== 0 ) {
-//         console.log(i);
-//     }
-//     }
+//  DRY - Don't Repeat Yourself 
+// Functions
 
 
 
-// Print out every cahracter from the string: 
-// Frontend Simplified
 
 
-const name = "Frontend Simplified";
+
+// Function Definition
 
 
-for( i = 0; i < name.length; ++i){
-    console.log(name[i]);
+
+function welcomePersonToFES(name) {
+
+console.log(`Welcome to FES, ${name}`);
+
+
 }
 
 
+
+
+
+// // Call the function
+
+// welcomePersonToFES("David");
+// welcomePersonToFES("Zen");
+// welcomePersonToFES("Mitri");
+
+
+
+// function sumOfTwoNumbers(num1, num2){   // num1, num2 --> Parameter
+//     return num1 + num2
+// }
+// console.log(sumOfTwoNumbers(10, 10)); // 10, 10  --> arguments 
+
+
+
+// Excercise with functions and returns
+
+
+//Create a function that converts Celsius to Fahrenheit
+//Celsius to Fahrenheit formula: F = C x 1.8 + 32
+
+// function convertCelsiusToFahrenheit(num1, num2, num3) {
+//     return num1 * num2 + num3
+// }
+
+// console.log(convertCelsiusToFahrenheit(0, 1.8, 32));
+// console.log(convertCelsiusToFahrenheit(10, 1.8, 32));
+// console.log(convertCelsiusToFahrenheit(30, 1.8, 32));
+
+
+// OR BETTER
+
+
+// function convertCelsiusToFahrenheit(celsius){
+//    return  celsius * 1.8 + 32
+     
+// }
+
+// console.log(convertCelsiusToFahrenheit(10));
+
+
+
+
+// OR ARROW
+
+// const convertCelsiusToFahrenheit = (celsius) => {
+//     return celsius * 1.8 + 32
+
+// }
+// console.log(convertCelsiusToFahrenheit(0));
+
+
+
+// ARRAYS
+
+
+
+
+
+//   First element of array;
+
+// console.log(arr[0])
+
+// last element of array;
+
+// console.log(arr[arr.length - 1]);
+
+
+
+//add element onto end of array:
+
+
+// arr.push(200);
+
+// let arr = [20, 30, 40 , 50 , 100];
+
+// // Shortcut for 1 element you want to cheeck to go through one condition 
+// let newArr = arr.filter(element =>  element < 50)
+
+// console.log(newArr);
+
+
+// //Excercise for Arrays:
+// //Filter out all the "Fail" elements in an array
+// //["A+", "FAIL"] => ["A+", "A"]
+// // ["FAIL", "FAIL", "B"] => ["B"]
+// // ["FAIL"] => []
+
+// let grades = ["FAIL"]
+
+// let newGrades = grades.filter(element => element !== "FAIL")
+
+// console.log(newGrades);
+
+
+let grades= ["A+", "A", "FAIL"]; 
