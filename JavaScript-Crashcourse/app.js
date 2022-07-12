@@ -5,23 +5,40 @@
 // if the number is not divisible by either 3 or 5, print the number 
 
 
-for (let i = 1; i <= 20; i++ ) {
-    if ( i % 3 === 0 ) {
+// for (let i = 1; i <= 20; i++ ) {
+
+//     if ( i % 3 === 0 && i % 5 === 0 ) {
+//         console.log(`${i} --> Frontend Simplified`);
+//     }
+
+//     else if ( i % 3 === 0 ) {
 
     
-    console.log(`${i} --> Frontend`);
-    }
+//     console.log(`${i} --> Frontend`);
+//     }
 
-    if ( i % 5 === 0 ) {
-        console.log(`${i} --> Simplified`);
-    }
+//     else if ( i % 5 === 0 ) {
+//         console.log(`${i} --> Simplified`);
+//     }
 
-    if ( i % 3 === 0 && i % 5 === 0 ) {
-        console.log(`${i} --> Frontend Simplified`);
-    }
+  
 
-    if ( i % 3 !== 0 && i % 5 !== 0 ) {
-        console.log(i);
-    }
-    }
+//     if ( i % 3 !== 0 && i % 5 !== 0 ) {
+//         console.log(i);
+//     }
+//     }
+
+
+
+// Print out every cahracter from the string: 
+// Frontend Simplified
+
+
+const name = "Frontend Simplified";
+
+
+for( i = 0; i < name.length; ++i){
+    console.log(name[i]);
+}
+
 
