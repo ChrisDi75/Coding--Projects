@@ -1,7 +1,13 @@
-let cash = 50;
-let price = 40;
-let isStoreOpen = true;
+// let count = 1;
 
-let str = isStoreOpen  && cash >= price ? " give receipt" :"do not give receipt"
 
-console.log(str);
+// // while(count <= 100) {
+// //     console.log(count);
+// //     count = count + 1;
+// // }
+
+
+for ( let i = 1; i < 100; i++) {
+    console.log(i);
+
+}
