@@ -10,12 +10,12 @@
 
 
 
-function welcomePersonToFES(name) {
+// // function welcomePersonToFES(name) {
 
-console.log(`Welcome to FES, ${name}`);
+// // console.log(`Welcome to FES, ${name}`);
 
 
-}
+// }
 
 
 
@@ -253,16 +253,23 @@ console.log(`Welcome to FES, ${name}`);
 
 // Change String in Element 
 
-document.querySelector(".title").innerHTML ="Frontend Simplified";
+// document.querySelector(".title").innerHTML ="Frontend Simplified";
 
 
 // Change CSS
 
-document.querySelector(".title").style.fontSize = "24px";
+// document.querySelector(".title").style.fontSize = "240px";
 
-function changeTitleToRed(){
-    document.querySelector(".title").style.color = "red"
-    console.log("clicked");
+// function changeTitleToRed(){
+//     document.querySelector(".title").style.color = "red"
+//     console.log("clicked");
+// }
+
+
+function toggleDarkMode() {
+(document.querySelector("body").classList.toggle("dark-theme"));
+
+
+
 }
-
 
