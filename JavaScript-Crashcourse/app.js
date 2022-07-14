@@ -266,10 +266,10 @@
 // }
 
 
-function toggleDarkMode() {
-(document.querySelector("body").classList.toggle("dark-theme"));
+// function toggleDarkMode() {
+// (document.querySelector("body").classList.toggle("dark-theme"));
 
 
 
-}
+// }
 
