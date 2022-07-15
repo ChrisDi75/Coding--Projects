@@ -186,9 +186,9 @@
 
 // Truthy to true, Falsy to false: convert the value into its boolean value.
 
-function convertToBoolean(arr){
-    return arr.map(elem => !!elem)
+// function convertToBoolean(arr){
+//     return arr.map(elem => !!elem)
 
-}
+// }
 
-console.log(convertToBoolean(["", NaN, 500, null, false, 0]));
+// console.log(convertToBoolean(["", NaN, 500, null, false, 0]));
