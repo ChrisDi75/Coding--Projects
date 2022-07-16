@@ -38,5 +38,45 @@
     // console.log(sortHightoLow([{id: 1, price: 50}, {id: 2, price: 30}, {id: 3, price: 60}, {id: 4, price: 10}]));
 
 
-    
+
     // Promises
+
+
+    // Find all the posts by a single user 
+
+
+// async function postsByUser(userId) {
+// const promise =  await fetch("https://jsonplaceholder.typicode.com/posts");
+
+// const result = await promise.json(); // die Backend Daten zu Usern werden mittels json für das Frontend lesbar  und somit für uns nutzbar gemacht. 
+
+// const posts = result.filter(element => element.userId === userId);
+
+// console.log(posts);
+
+
+// }
+
+
+//     postsByUser(4);
+
+
+// First 6  Incomplete Todos. Return the first 6 incomplete todos from the result.
+
+// async function firstSixIncomplete(incompleted) {
+//     const promise = await fetch ("https://jsonplaceholder.typicode.com/todos");
+
+//     const result = await promise.json();
+
+//     const incompleteTasks =  result.filter(element => !element.completed).slice(0, 6);
+    
+
+//     console.log(incompleteTasks);
+
+
+// }
+
+
+
+
+// firstSixIncomplete(6);
